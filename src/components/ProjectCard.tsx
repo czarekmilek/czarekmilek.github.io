@@ -11,10 +11,10 @@ export default function ProjectCard({ project }: Props): JSX.Element {
   return (
     <div className="bg-neutral-800 shadow-lg rounded-lg overflow-hidden relative">
       <div className="p-3 h-60">
-        <h2 className="text-lg font-semibold mb-1">{title}</h2>
-        <p className="text-gray-400 text-sm mb-4">{description}</p>
-        <div className="flex flex-row">
-          <div className="w-28 h-28 -mt-4">
+        <h2 className="lg:text-lg font-semibold mb-1">{title}</h2>
+        <p className="text-gray-400 text-xs lg:text-sm mb-4">{description}</p>
+        <div className="lg:flex flex-row">
+          <div className="hidden lg:block w-28 h-28 -mt-4">
             <img
               className="object-center p-4"
               src={showcaseImage}
@@ -22,8 +22,8 @@ export default function ProjectCard({ project }: Props): JSX.Element {
             />
           </div>
           <div className="-mt-3">
-            <h3 className="text-base font-semibold mb-1">Technologies Used:</h3>
-            <ul className="list-disc text-sm list-inside">
+            <h3 className="text-sm lg:text-base font-semibold mb-1">Technologies Used:</h3>
+            <ul className="list-disc text-xs lg:text-sm list-inside">
               {technologies.map((tech, index) => (
                 <li key={index}>{tech}</li>
               ))}

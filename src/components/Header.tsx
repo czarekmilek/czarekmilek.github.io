@@ -25,8 +25,8 @@ function Header() {
   ];
 
   return (
-    <div className="h-24 flex items-center w-screen justify-between bg-gradient-to-t from-slate-800 to-slate-900 border-b-2 border-slate-600">
-      <div className="w-24 h-24 bg-gradient-to-t from-indigo-900 to-cyan-800 content-center border-r-2 border-slate-600">
+    <div className="h-16 md:h-24 flex items-center w-screen justify-between bg-gradient-to-t from-slate-800 to-slate-900 border-b-2 border-slate-600">
+      <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-t from-indigo-900 to-cyan-800 content-center border-r-2 border-slate-600">
         <a href="/">
           <img
             src="./logo.png"
@@ -35,12 +35,12 @@ function Header() {
           ></img>
         </a>
       </div>
-      <div className="hidden md:flex gap-20">
+      <div className="flex gap-4 md:flex md:gap-20">
         {menu.map((item) => (
           <Link
             key={item.id}
             to={item.path}
-            className="cursor-pointer hover:underline text-xl hover:scale-125 duration-500 transition-all ease-in-out"
+            className="cursor-pointer hover:underline md:text-xl hover:scale-125 duration-500 transition-all ease-in-out"
           >
             <h2>{item.name}</h2>
           </Link>

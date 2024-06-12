@@ -7,12 +7,12 @@ export default function About() {
   return (
     <>
       <Sidebar heading="ABOUT" />
-      <div className="ml-32 grid grid-cols-1 md:grid-cols-3 fixed">
+      <div className="ml-12 md:ml-32 grid grid-cols-1 md:grid-cols-3 fixed">
         <div className="col-span-2">
-          <div className="mt-6">
+          <div className="mt-4 md:mt-6">
             <Education />
           </div>
-          <div className="hidden md:block">
+          <div className="">
             <Experience />
           </div>
         </div>

@@ -12,10 +12,10 @@ interface SidebarProps {
 function Sidebar({ heading }: SidebarProps): JSX.Element {
   return (
     <div
-      className="w-24 h-screen bg-gradient-to-l from-slate-800 to-slate-900 content-center border-r-2 border-slate-600
+      className="w-8 md:w-24 h-screen bg-gradient-to-l from-slate-800 to-slate-900 content-center border-r-2 border-slate-600
      fixed flex flex-col justify-around items-center"
     >
-      <h2 className="-rotate-90 tracking-widest text-xl">{heading}</h2>
+      <h2 className="-rotate-90 tracking-widest text-sm md:text-xl">{heading}</h2>
       <div className="flex flex-col gap-7 text-xl">
         <a
           href="https://github.com/czarekmilek"

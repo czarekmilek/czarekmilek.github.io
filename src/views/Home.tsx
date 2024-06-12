@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Sidebar heading="HOMEPAGE" />
-      <div className="ml-32 grid grid-cols-1 md:grid-cols-3">
+      <div className="ml-12 md:ml-32 grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2">
           <Introduction />
         </div>
