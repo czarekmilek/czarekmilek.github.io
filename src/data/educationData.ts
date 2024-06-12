@@ -5,7 +5,7 @@ const educationData = [
     gpa: 5.65,
     majors: ["Mathematics", "Biology", "Chemistry"],
     image: "./2lo.png",
-    link: "https://dc.fandom.com/wiki/Gotham_City_High_School",
+    link: "https://2lo.ostroleka.edu.pl/",
     description:
       "Surrounded by dedicated teachers and classmates, I developed a strong foundation that has been instrumental in my current studies in Computer Science. This period was marked by significant learning experiences and personal development, preparing me for future academic and professional challenges.",
   },

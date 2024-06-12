@@ -7,6 +7,6 @@ export const ExpList = [
       "Teaching mathematics and english",
     desc: "I tutored primary school and high school students",
     logo: "./math.jpg",
-    link: "",
+    link: "/",
   }
 ];
