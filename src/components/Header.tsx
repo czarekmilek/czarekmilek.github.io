@@ -25,12 +25,12 @@ function Header() {
   ];
 
   return (
-    <div className="h-28 flex items-center w-screen justify-between bg-gradient-to-t from-slate-800 to-slate-900 border-b-2 border-slate-600">
-      <div className="w-28 h-28 bg-gradient-to-t from-indigo-900 to-cyan-800 content-center border-r-2 border-slate-600">
+    <div className="h-24 flex items-center w-screen justify-between bg-gradient-to-t from-slate-800 to-slate-900 border-b-2 border-slate-600">
+      <div className="w-24 h-24 bg-gradient-to-t from-indigo-900 to-cyan-800 content-center border-r-2 border-slate-600">
         <a href="/">
           <img
             src="./logo.png"
-            className="p-2 -mt-1 hover:scale-110 duration-500 transition-all ease-in-out"
+            className="p-2 -mt-1 w-24 hover:scale-110 duration-500 transition-all ease-in-out"
             alt="logo"
           ></img>
         </a>
@@ -46,7 +46,7 @@ function Header() {
           </Link>
         ))}
       </div>
-      <div className="w-28 h-28 bg-gradient-to-t from-slate-800 to-slate-900 content-center"></div>
+      <div className="h-24 bg-gradient-to-t from-slate-800 to-slate-900 content-center border-b-2 border-slate-600"></div>
     </div>
   );
 }

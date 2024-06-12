@@ -14,7 +14,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
 }) => {
   return (
     <div className="grid grid-cols-2 items-center mb-4">
-      <p className="text-lg text-right mr-4 font-semibold">{label}</p>
+      <p className="text-base text-right mr-4 font-semibold">{label}</p>
       <div className="h-3 w-96 bg-gray-900 rounded-full relative overflow-hidden">
         <div
           className="h-3 rounded-full animate-fill_bar absolute top-0 left-0"
@@ -31,7 +31,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
 const ProgressComponent = () => {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl tracking-widest font-bold mb-4 p-2 px-4">
+      <h2 className="text-xl tracking-widest font-bold mb-2 p-2 px-4">
         Languages
       </h2>
       {progressData.map((item) => (
@@ -43,7 +43,7 @@ const ProgressComponent = () => {
         />
       ))}
 
-      <h2 className="text-2xl tracking-widest font-bold mb-4 p-2 px-4">
+      <h2 className="text-xl mt-3 tracking-widest font-bold mb-2 p-2 px-4">
         Frameworks
       </h2>
       {frameworkData.map((item) => (

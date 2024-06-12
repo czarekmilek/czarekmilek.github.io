@@ -4,7 +4,7 @@ export const ExpList = [
     title: "Tutor",
     years: "2021-2022",
     responsibilities:
-      "Teaching mathematics and english, helping to understand concepts and improve problem-solving skills. ",
+      "Teaching mathematics and english",
     desc: "I tutored primary school and high school students",
     logo: "./math.jpg",
     link: "",
