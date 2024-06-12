@@ -1,7 +1,7 @@
 function Introduction() {
   return (
     <div className="flex justify-center flex-col items-center">
-      <div className="h-20 border-r-2 border-slate-600" />
+      <div className="h-14 border-r-2 border-slate-600" />
       <div className="w-2 h-2 bg-orange-400 rounded-full" />
       <h2 className="mt-5 font-medium text-base">HELLO</h2>
       <h2 className="mt-0 font-medium text-base">I AM</h2>

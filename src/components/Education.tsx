@@ -21,7 +21,7 @@ const Education = () => {
                 <img
                   src={data.image}
                   alt={data.institution}
-                  className="w-full h-20 -mt-24 mr-6"
+                  className="h-20 -mt-20 mr-6"
                 />
                 <div className="flexbox">
                   <div className="h-18">

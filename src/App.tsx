@@ -25,7 +25,7 @@ function AnimatedRoutes() {
         classNames="fade"
         unmountOnExit
       >
-        <div className="mx-auto h-full w-full overflow-hidden">
+        <div className="mx-auto h-full w-full overflow-hidden fixed">
           <Routes location={location}>
             <Route path="/" element={<Home />} />
             <Route path="/skills" element={<Skills />} />
