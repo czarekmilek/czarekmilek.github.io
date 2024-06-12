@@ -9,10 +9,10 @@ export default function About() {
       <Sidebar heading="ABOUT" />
       <div className="ml-32 grid grid-cols-1 md:grid-cols-3 fixed">
         <div className="col-span-2">
-          <div className="mt-7">
+          <div className="mt-6">
             <Education />
           </div>
-          <div className="mt-7">
+          <div className="hidden md:block">
             <Experience />
           </div>
         </div>

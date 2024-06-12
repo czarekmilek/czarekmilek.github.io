@@ -13,9 +13,9 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
   color,
 }) => {
   return (
-    <div className="grid grid-cols-2 items-center mb-4">
+    <div className="grid grid-cols-3 items-center mb-2">
       <p className="text-base text-right mr-4 font-semibold">{label}</p>
-      <div className="h-3 w-96 bg-gray-900 rounded-full relative overflow-hidden">
+      <div className="h-3 mt-0 w-[30rem] bg-gray-900 rounded-full relative overflow-hidden">
         <div
           className="h-3 rounded-full animate-fill_bar absolute top-0 left-0"
           style={{

@@ -3,7 +3,7 @@ import { ExpList } from "../data/experienceData";
 
 const Experience = () => {
   return (
-    <div className="pl-12 pr-14">
+    <div className="pl-6 pr-14">
       <div className="flex items-center">
         <div className="w-7 h-3 mb-1 bg-orange-400 rounded-full" />
         <div className="w-full border-[1px] border-slate-500 -mt-1"></div>
